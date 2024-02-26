@@ -2,8 +2,8 @@ const currentTime=document.querySelector("#currentTime");
 const parentBtn=document.querySelector(".btn-container");
 
 let hours=0;
-let minutes=59;
-let seconds=45;
+let minutes=0;
+let seconds=0;
 let timerId=0;
 
 parentBtn.addEventListener("click", (event)=>{
